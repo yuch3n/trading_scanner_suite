@@ -11,8 +11,8 @@ The Congressional STOCK module isn't working due to not having access to live da
 |---|---|---|
 | `scanner.py` | Post-earnings drift (PEAD) | Earnings season (Jan, Apr, Jul, Oct) |
 | `mean_reversion_scanner.py` | Oversold bounce plays | After market selloffs |
-| `uoa_scanner.py` | Unusual options activity | Daily, end of day |
-| `deez_nutz.py` | Short squeeze setups | Any time |
+| `uoa_scanner.py` WIP | Unusual options activity | Daily, end of day |
+| `deez_nutz.py` MEME | Short squeeze setups | Any time |
 | `csp_scanner.py` | Cash secured puts | When IV rank is elevated |
 | `insider_scanner.py` | SEC Form 4 insider buying | Weekly 
 
