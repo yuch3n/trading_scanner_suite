@@ -1,6 +1,7 @@
 # Trading Scanner Suite
 
 A collection of options trading scanners built in Python. Each scanner identifies a different type of trade setup and suggests specific option contracts to consider. All trades require manual approval — the scanners find candidates, you decide whether to trade them.
+The Congressional STOCK module isn't working due to not having access to live data. It's essentially a WIP wrapper for. I find that this is not even useful, as Congressional stock disclosures are more often done months after positions have been made.
 
 ---
 
@@ -13,8 +14,7 @@ A collection of options trading scanners built in Python. Each scanner identifie
 | `uoa_scanner.py` | Unusual options activity | Daily, end of day |
 | `deez_nutz.py` | Short squeeze setups | Any time |
 | `csp_scanner.py` | Cash secured puts | When IV rank is elevated |
-| `insider_scanner.py` | SEC Form 4 insider buying | Weekly |
-| `pelosi.py` | Congressional STOCK Act trades | Weekly (requires FMP key) |
+| `insider_scanner.py` | SEC Form 4 insider buying | Weekly 
 
 ---
 
