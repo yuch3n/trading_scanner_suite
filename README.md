@@ -152,9 +152,11 @@ Finds stocks that are oversold relative to their recent history but still in lon
 
 For high-IV candidates (rank > 60), the scanner automatically suggests a bull call spread to reduce cost and IV exposure.
 
+<img width="2319" height="1273" alt="Screenshot 2026-06-08 075443" src="https://github.com/user-attachments/assets/bbde4b1a-0978-4fab-9fc7-dba273f5b781" />
+
 ---
 
-### Unusual Options Activity (`uoa_scanner.py`)
+### Unusual Options Activity (`uoa_scanner.py`) *WIP* 
 
 Detects unusually large options volume on specific strikes — a potential sign of informed institutional positioning.
 
@@ -222,6 +224,7 @@ Finds put contracts worth selling for premium income. Targets high IV, liquid un
 - Buy back if stock drops within 2% of strike
 - Never hold through earnings
 
+<img width="2337" height="1327" alt="Screenshot 2026-06-08 075651" src="https://github.com/user-attachments/assets/aaf620af-d596-4474-951d-4f848e9ec980" />
 ---
 
 ### Insider Buying Scanner (`insider_scanner.py`)
